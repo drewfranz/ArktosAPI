@@ -25,6 +25,8 @@ namespace ArktosAPI.Models
 
         [JsonIgnore]
         public virtual User User { get; set; }
+
+        [JsonIgnore]
         public virtual Project Project { get; set; }
     }
 

@@ -10,6 +10,7 @@ using ArktosAPI.Classes;
 
 namespace ArktosAPI.Controllers
 {
+    [ApiVersion("1.0")]
     [Route("[controller]")]
     [ApiController]
     public class TasksController : ControllerBase
